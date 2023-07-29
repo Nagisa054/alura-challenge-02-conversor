@@ -60,7 +60,6 @@ public class Window extends JFrame implements ActionListener{
         output.setEditable(false);
         output.setText("0000");
         output.setBounds(180, 75, 150, 25);
-
         /*botón convertir*/
         btn.addActionListener(this);
         btn.setFont(new Font("Times New Roman", Font.BOLD, 15));
@@ -96,16 +95,15 @@ public class Window extends JFrame implements ActionListener{
             BtnCopy.copy(output.getText());
         }
         if(e.getSource() == btn) {
-            boolean a = Check.ValidarCBox(list1.getSelectedIndex(), list2.getSelectedIndex());
-            boolean b = Check.ValidarInput(getInputValue());
+            boolean a = Check.ValidarCBox(list1.getSelectedIndex(), list2.getSelectedIndex());//Validacion DE CheckBox
+            boolean b = Check.ValidarInput(getInputValue());//Validacion del Input
+
             if(a && b){
-              BigDecimal salida =  Logica.convercion(list1.getSelectedIndex(), list2.getSelectedIndex(), Double.parseDouble(input.getText()));
-              output.setText(String.valueOf(salida));
+                BigDecimal salida =  Logica.convercion(list1.getSelectedIndex(), list2.getSelectedIndex(), Double.parseDouble(input.getText()));//Convercion
+                output.setText(String.valueOf(salida));//Mostrando salida
             }
 
         }
-
-
     };
 
     //MÉTODOS GET
