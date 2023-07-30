@@ -1,14 +1,12 @@
 package Back;
 
-import UI.Window;
 import UI.WindowErrorCBox;
 import UI.WindowErrorInput;
 
-import javax.swing.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Check extends Window{
+public class Check {
 
    public static Boolean ValidarInput(String input){
 
@@ -16,7 +14,7 @@ public class Check extends Window{
         Matcher matcher = patterm.matcher(input);
         boolean find = matcher.find();
 
-        if (find){
+        if (find || input.equals(".") || input.equals("")){
             new WindowErrorInput();
             return false;
         }
@@ -26,12 +24,12 @@ public class Check extends Window{
 
         if (list1 == 0 || list2 == 0) {
             new WindowErrorCBox();
-            System.out.println("error ChecBox valor 'list1, list2' ");
+            System.out.println("error. la opción: " + list1 + " o " + list2 + " no es valida");
             return false;
         }
         if (list1 == list2) {
             new WindowErrorCBox();
-            System.out.println("error ChecBox valor 'list1, list2' ");
+            System.out.println("error. la opción: " + list1 + " o " + list2 + " no es valida");
             return false;
         }
         return true;
