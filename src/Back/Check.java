@@ -14,22 +14,23 @@ public class Check extends Window{
 
         Pattern patterm = Pattern.compile("[^\\d.]+", Pattern.CASE_INSENSITIVE);
         Matcher matcher = patterm.matcher(input);
+        boolean find = matcher.find();
 
-        if (matcher.find()){
-            WindowErrorInput errorInputFrame = new WindowErrorInput();
+        if (find){
+            new WindowErrorInput();
+            return false;
         }
-
-        return !matcher.find();
+            return !find;
     }
     public static Boolean ValidarCBox(int list1, int list2){
 
         if (list1 == 0 || list2 == 0) {
-            WindowErrorCBox errorCBoxFrame = new WindowErrorCBox();
+            new WindowErrorCBox();
             System.out.println("error ChecBox valor 'list1, list2' ");
             return false;
         }
         if (list1 == list2) {
-            WindowErrorCBox errorCBoxFrame = new WindowErrorCBox();
+            new WindowErrorCBox();
             System.out.println("error ChecBox valor 'list1, list2' ");
             return false;
         }
