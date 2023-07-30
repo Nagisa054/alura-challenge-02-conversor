@@ -75,7 +75,7 @@ public class Window extends JFrame implements ActionListener{
         this.setSize(360, 200);
         this.setTitle("");
         this.setLayout(null);
-        this.setResizable(true);
+        this.setResizable(false);
         this.setVisible(true);
 
     //ADICIÓN DE COMPONENTES
