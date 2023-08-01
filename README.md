@@ -1,18 +1,23 @@
-# **$ ⇆ ¥**  Remsor Converter  **¥ ⇆ $**
-
+<center>
+#  **$ ⇆ ¥**  Remsor Converter  **¥ ⇆ $**
+</center>
+<center>
+![https://raw.githubusercontent.com/Nagisa054/alura-challenge-02-conversor/main/readmeImages/conversor-icon.png](https://raw.githubusercontent.com/Nagisa054/alura-challenge-02-conversor/main/readmeImages/conversor-icon.png)
+</center>
 ## _Challenge ONE Back End._
+<center>
 ![https://www.aluracursos.com/assets/img/challenges/oracle-one/logo-one.1686744883.svg)](https://www.aluracursos.com/assets/img/challenges/oracle-one/logo-one.1686744883.svg)
-
+</center>
 ## descripción
 **Remsor Converter** es una aplicación de escritorio desarrollada en Java que se encarga de mostrar el valor de una divisa a otra.  **$ ⇆ ¥**
-<imagen>
+![https://raw.githubusercontent.com/Nagisa054/alura-challenge-02-conversor/main/readmeImages/conversor%20image.png](https://raw.githubusercontent.com/Nagisa054/alura-challenge-02-conversor/main/readmeImages/conversor%20image.png)
 
 ## Requisitos Del Reto.
 - Usar Java y Java Swing.
 - Convertir adecuadamente las monedas.
 
 ## Opciones de conversión
-el programa puede hacer adecuadamente las siguientes conversiones:
+Remsor Converter puede hacer adecuadamente las siguientes conversiones:
 | Moneda Entrada | Moneda Salida |
 | ------ | ------ |
 | € Euros |$ Dolar |
@@ -83,4 +88,3 @@ curl -LJO https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dis
 ```
 wget https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/jar/ConversorDeMoneda.jar
 ```
-
