@@ -1,13 +1,12 @@
-<center>
+
 #  **$ ⇆ ¥**  Remsor Converter  **¥ ⇆ $**
-</center>
-<center>
+
 ![https://raw.githubusercontent.com/Nagisa054/alura-challenge-02-conversor/main/readmeImages/conversor-icon.png](https://raw.githubusercontent.com/Nagisa054/alura-challenge-02-conversor/main/readmeImages/conversor-icon.png)
-</center>
+
 ## _Challenge ONE Back End._
-<center>
+
 ![https://www.aluracursos.com/assets/img/challenges/oracle-one/logo-one.1686744883.svg)](https://www.aluracursos.com/assets/img/challenges/oracle-one/logo-one.1686744883.svg)
-</center>
+
 ## descripción
 **Remsor Converter** es una aplicación de escritorio desarrollada en Java que se encarga de mostrar el valor de una divisa a otra.  **$ ⇆ ¥**
 ![https://raw.githubusercontent.com/Nagisa054/alura-challenge-02-conversor/main/readmeImages/conversor%20image.png](https://raw.githubusercontent.com/Nagisa054/alura-challenge-02-conversor/main/readmeImages/conversor%20image.png)
