@@ -58,32 +58,32 @@ Remsor Converter puede hacer adecuadamente las siguientes conversiones:
 Para descargar e instalar abra la terminal que usted quiera, luego ejecute el comando correspondiente con su sistema operativo y el tipo de archivo que usted quiera
 ### windows
 **.exe**
-<sub>ediante curl</sub>
+<sub>mediante curl</sub>
 ```
 curl -LJO https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/exe/ConversorDeMoneda.exe
 ```
-<sub>ediante wget</sub>
+<sub>mediante wget</sub>
 ```
 wget https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/exe/ConversorDeMoneda.exe
 ```
 **.jar**
 Rrequiere [Java](https://www.java.com/) v15 o superior para funcionar adecuadamente.
-<sub>ediante curl</sub>
+<sub>mediante curl</sub>
 ```
 curl -LJO https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/jar/ConversorDeMoneda.jar
 ```
-<sub>ediante wget</sub>
+<sub>mediante wget</sub>
 ```
 wget https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/jar/ConversorDeMoneda.jar
 ```
 ### Linux y otros
 **.jar**
 Rrequiere [Java](https://www.java.com/) v15 o superior para funcionar adecuadamente.
-<sub>ediante curl</sub>
+<sub>mediante curl</sub>
 ```
 curl -LJO https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/jar/ConversorDeMoneda.jar
 ```
-<sub>ediante wget</sub>
+<sub>mediante wget</sub>
 ```
 wget https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/jar/ConversorDeMoneda.jar
 ```
