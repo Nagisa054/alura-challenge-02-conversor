@@ -58,6 +58,7 @@ Remsor Converter puede hacer adecuadamente las siguientes conversiones:
 Para descargar e instalar abra la terminal que usted quiera, luego ejecute el comando correspondiente con su sistema operativo y el tipo de archivo que usted quiera
 ### windows
 **.exe**
+
 <sub>mediante curl</sub>
 ```
 curl -LJO https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/exe/ConversorDeMoneda.exe
@@ -68,6 +69,7 @@ wget https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/exe
 ```
 **.jar**
 Rrequiere [Java](https://www.java.com/) v15 o superior para funcionar adecuadamente.
+
 <sub>mediante curl</sub>
 ```
 curl -LJO https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/jar/ConversorDeMoneda.jar
@@ -79,6 +81,7 @@ wget https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/jar
 ### Linux y otros
 **.jar**
 Rrequiere [Java](https://www.java.com/) v15 o superior para funcionar adecuadamente.
+
 <sub>mediante curl</sub>
 ```
 curl -LJO https://github.com/Nagisa054/alura-challenge-02-conversor/raw/main/dist/jar/ConversorDeMoneda.jar
